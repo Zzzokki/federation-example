@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "@apollo/server": "^4.7.5",
+    "@apollo/subgraph": "^2.4.8",
+    "graphql-tag": "^2.12.6"
+  },
+  "name": "student",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc",
+    "start": "npm run compile && node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module"
+}

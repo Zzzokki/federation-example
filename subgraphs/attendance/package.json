@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@apollo/server": "^4.7.5",
+    "@apollo/subgraph": "^2.4.8",
+    "graphql": "^16.7.1",
+    "graphql-tag": "^2.12.6"
+  },
+  "name": "attendance",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc",
+    "start": "npm run compile && node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module"
+}
